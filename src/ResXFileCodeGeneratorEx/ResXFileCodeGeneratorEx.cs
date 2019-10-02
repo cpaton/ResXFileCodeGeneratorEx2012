@@ -13,6 +13,8 @@ namespace DMKSoftware.CodeGenerators
     //[CodeGeneratorRegistration(typeof(ResXFileCodeGeneratorEx), "ResXFileCodeGeneratorEx", VSConstants.UICONTEXT.CSharpProject_string, GeneratorRegKeyName = ".doml")]
     [CodeGeneratorRegistration(typeof(ResXFileCodeGeneratorEx), "ResXFileCodeGeneratorEx", VSConstants.UICONTEXT.CSharpProject_string, GeneratesDesignTimeSource = true)]
     [CodeGeneratorRegistration(typeof(ResXFileCodeGeneratorEx), "ResXFileCodeGeneratorEx", vsContextGuids.vsContextGuidVCSEditor, GeneratesDesignTimeSource = true)]
+    [CodeGeneratorRegistration(typeof(ResXFileCodeGeneratorEx), "ResXFileCodeGeneratorEx", VSConstants.UICONTEXT.VBProject_string, GeneratesDesignTimeSource = true)]
+    [CodeGeneratorRegistration(typeof(ResXFileCodeGeneratorEx), "ResXFileCodeGeneratorEx", vsContextGuids.vsContextGuidVBEditor, GeneratesDesignTimeSource = true)]
     [ProvideObject(typeof(ResXFileCodeGeneratorEx))]
 	public class ResXFileCodeGeneratorEx : BaseResXFileCodeGeneratorEx
     {
